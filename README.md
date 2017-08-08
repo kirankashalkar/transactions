@@ -35,5 +35,4 @@ Note: The server runs on port 8000 by default. To change it, set the environment
 * Running queries concurrently in transactions
 * Write automated tests
 
-(c) Kiran Kashalkar
 
