@@ -33,7 +33,8 @@ Note: The server runs on port 8000 by default. To change it, set the environment
 	* GET /api/transactions/<transferid> - Get a particular transfer. Also an alias to api/transfers/<transferid>
 
 ## Suggested improvements:
-* Enhance tranfers to save operation status and details
+* ~~Add seed information for initializing database~~
+* Enhance transfers to save operation status and details
 * Running queries concurrently in transactions
 * Write automated tests
 
