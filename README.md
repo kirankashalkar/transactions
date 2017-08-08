@@ -2,7 +2,7 @@
 * Run the circle postgres SQL DB docker image as noted in the questionnaire.
 * Install Node and NPM. Since I use ES6, you'll need Node version > 5.
 	* I recommend using brew to install Node on Mac OSX. If you wish to use multiple versions of Node, use n
-* Install sequelize globally:
+* Install sequelize-cli globally:
 	* npm install -g sequelize-cli
 * Install NPM dependencies:
 	* At top-level, run npm install
