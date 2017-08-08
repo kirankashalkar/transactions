@@ -8,10 +8,12 @@
 	```
 * Install NPM dependencies:
 	```bash
+	cd <folder-name>
 	npm install
 	```
 * Initialize database schema:
 	```bash
+	cd server
 	sequelize db:migrate
 	```
 * Seed the database:
