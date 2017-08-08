@@ -3,19 +3,31 @@
 * Install Node and NPM. Since I use ES6, you'll need Node version > 5.
 	* I recommend using brew to install Node on Mac OSX. If you wish to use multiple versions of Node, use n
 * Install sequelize globally:
-	* npm install -g sequelize-cli
+	```bash
+	npm install -g sequelize-cli
+	```
 * Install NPM dependencies:
-	* At top-level, run npm install
+	```bash
+	npm install
+	```
 * Initialize database schema:
-	* sequelize db:migrate
+	```bash
+	sequelize db:migrate
+	```
 * Seed the database:
-	* sequelize --url postgres://circle:circle@localhost:5432/circle db:seed:all
+	```bash
+	sequelize --url postgres://circle:circle@localhost:5432/circle db:seed:all
+	```
 * Run the server:
 	* Development mode:
-		* npm run start:dev
+		```bash
+		npm run start:dev
+		```
 	* Production mode:
-		* export NODE_ENV="production"
-		* node bin/www
+		```bash
+		export NODE_ENV="production"
+		node bin/www
+		```
 
 
 Note: The server runs on port 8000 by default. To change it, set the environment variable PORT to something else.
